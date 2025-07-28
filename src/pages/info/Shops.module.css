@@ -1,0 +1,24 @@
+.container{
+    padding: 0 15%;
+    display: flex;
+}
+
+.shop1{
+    width: 40%;
+    min-height: 80vh;
+    border-radius: 10px;
+    height: 80vh;
+    background-color: white;
+}
+
+.filler{
+    width: 20%;
+}
+
+.shop2{
+    width: 40%;
+    min-height: 80vh;
+    border-radius: 10px;
+    height: 80vh;
+    background-color: white;
+}

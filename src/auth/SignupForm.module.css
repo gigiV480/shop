@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: start;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.inputContainer{
+    width: inherit;
+    display: flex;
+    margin: 2rem 0 2rem 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input{
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    padding-left: 1rem;
+    font-size: medium;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.gender{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.optionButton {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .optionButton:hover:not(.selected) {
+    background-color: #f0f0f0;
+  }
+  
+  .selected {
+    background-color: #333;
+    color: white;
+    border-color: #333;
+  }
+
+  .button{
+    font-size: 1rem;
+    font-weight: 600;
+    width: inherit;
+    margin: 1rem 0;
+    background-color: blue;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}

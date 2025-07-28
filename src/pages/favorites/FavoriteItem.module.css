@@ -1,0 +1,53 @@
+.favoriteContainer{
+    display: flex;
+    max-height: 8rem;
+    border-radius: 15px;
+    background-color: gray;
+    justify-content: space-between;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 9rem;
+    height: 100%;
+  }
+  
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+  }
+
+
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+.removeButton{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.cartButton{
+    border: none;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.texts{
+    margin: 1rem 0 0 1rem;
+    max-width: 400px;
+}

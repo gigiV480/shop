@@ -1,0 +1,82 @@
+.cartContainer{
+    display: flex;
+    max-height: 8rem;
+    border-radius: 15px;
+    background-color: rgb(233, 233, 233);
+    justify-content: space-between;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 9rem;
+    height: 100%;
+  }
+  
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+  }
+
+.removeButton{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: medium;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+}
+
+.removeButton:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+.texts{
+    margin: 1rem 0 0 1rem;
+    max-width: 400px;
+    align-self: flex-start;
+}
+
+.checkboxWrapper {
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+  }
+  
+  .checkboxInput {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+  }
+  
+  .checkboxInput:checked {
+    background-color: #007bff;
+  }
+  
+  .checkboxInput:checked::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  

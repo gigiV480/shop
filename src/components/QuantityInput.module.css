@@ -1,0 +1,47 @@
+.selector {
+  background: #f5f5f5;
+  /* padding: 1rem; */
+  padding: 0 0 1rem 1rem;
+  border-radius: 8px;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* ✅ Styled like selector buttons */
+.button {
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #f0f0f0;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ✅ Simple, clean number input */
+.input {
+  width: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.3rem;
+}

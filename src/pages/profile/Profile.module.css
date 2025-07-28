@@ -1,0 +1,52 @@
+.container{
+    min-height: 80vh;
+    padding: 1rem 15%;
+}
+
+  .distance {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .linkList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 20%;
+    min-width: 220px; 
+    font-size: 1.5rem;
+  }
+  
+
+.listItem{
+    background-color: #cccccc;
+}
+
+.meh{
+    width: 10%;
+}
+
+.showList{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem {
+    background: none;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    text-align: left;
+    font: inherit;
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  .listItem:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .active {
+    background-color: #d0e0ff;
+  }

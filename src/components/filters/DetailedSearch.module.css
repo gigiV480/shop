@@ -1,0 +1,119 @@
+.container{
+    min-height: 700px;
+    height: fit-content;
+    width: 400px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .xButton {
+    border: none;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-size: 1.25rem;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+  }
+  
+  .xButton:hover {
+    background-color: #d0d0d0;
+  }
+  
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.input{
+    text-align: center;
+    border-radius: 5px;
+    width: max-content;
+    height: 50px;
+    border: 1px solid gray;
+}
+
+.gap{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.select{
+    height: 50px;
+    padding-left: 1rem;
+}
+
+.option{
+    height: 100px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .optionButton {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .optionButton:hover:not(.selected) {
+    background-color: #f0f0f0;
+  }
+  
+  .selected {
+    background-color: #333;
+    color: white;
+    border-color: #333;
+  }
+
+.endButtons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.clearButton{
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.searchButton{
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

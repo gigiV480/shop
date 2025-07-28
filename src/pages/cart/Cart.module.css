@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 74%;
+}
+
+.mtavari{
+    padding: 2rem 15%;
+    display: flex;
+    min-height: 80vh;
+}
+
+.border{
+    width: 1%;
+}
+
+.details{
+    position: sticky; 
+    top: 0;
+    width: 25%;
+    padding: 0.5rem 0;
+    text-align: center;
+    align-items: center;
+    color: black;
+    max-height: fit-content;
+    border-radius: 15px;
+    background-color: rgb(233, 233, 233);
+    margin-top: 1rem;
+}
+.sticky-wrapper {
+    position: sticky;
+    top: 1rem;
+  }
+  
+  
+
+.checkoutButton{
+    border: none;
+    width: 80%;
+    height: 3rem;
+    background-color: #007bff;
+    border-radius: 1rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    /* padding-left: 4rem; */
+}
+
+.line{
+    margin: 1rem 0;
+    border-bottom: 1px solid black;
+}
+
+.item{
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.smallLine{
+    margin: 0.5rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    width: 80%;
+}
+
+.checkboxInput {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+  }
+  
+  .checkboxInput:checked {
+    background-color: #007bff;
+  }
+  
+  .checkboxInput:checked::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+.selectAll{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    width: fit-content;
+    font-weight: bold;
+}
+
+

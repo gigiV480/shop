@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    border-bottom: 1px solid grey;
+    height: 40px;
+}
+
+.miniCont{
+    display: flex;
+    line-height: 40px;
+    height: 40px;
+}
+
+.item{
+    padding: 0 1rem;
+    width: fit-content;
+    height: fit-content;
+    border-right: 0.1px solid gray;
+    cursor: pointer;
+}
+.item1{
+    border-left: 0.1px solid gray;
+}
+
+.item:hover{
+    background-color: #c7c7c7;
+}

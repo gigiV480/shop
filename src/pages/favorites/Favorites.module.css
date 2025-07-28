@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 79%;
+}
+
+.mtavari{
+    padding: 2rem 15%;
+    display: flex;
+    min-height: 80vh;
+}
+
+.border{
+    width: 1%;
+}
+
+.details{
+    width: 20%;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    max-height: fit-content;
+    border-radius: 15px;
+    background-color: rebeccapurple;
+}
+
+.lastLine{
+    padding-top: 1rem;
+    border-bottom: 1px solid black;
+}

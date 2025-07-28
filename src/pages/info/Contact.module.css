@@ -1,0 +1,102 @@
+.container{
+    display: flex;
+    padding: 0 15%;
+}
+
+.form{
+    display: flex;
+    min-height: 20rem;
+    flex-direction: column;
+    width: 40%;
+    margin: 5rem 0;
+    padding: 3rem 0;
+    gap: 2rem;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.miniCont{
+    width: 100%;
+    align-items: center;
+}
+
+.input{
+    height: 60px;
+    width: 60%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding-left: 1rem;
+    font-size: medium;
+}
+
+.bigTextArea {
+    width: 60%;
+    height: 200px;
+    padding: 1rem;
+    font-size: medium;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+    font-family: inherit;
+  }
+  
+
+.button{
+    height: 60px;
+    width: 60%;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: yellow;
+    color: white;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.filler{
+    width: 5%;
+}
+
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+    width: 50%;
+    border-radius: 5%;
+    min-height: 50rem;
+    height: max-content;
+    background-color: white;
+}
+
+.map{
+    width: 90%;
+    height: 450px;
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.link{
+    color: #b8b8b8;
+}
+
+.link:hover{
+    color: #838383;
+    cursor: pointer;
+}

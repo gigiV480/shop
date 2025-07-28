@@ -1,0 +1,17 @@
+.homePage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .section {
+    padding: 0 15%; 
+  }
+  
+
+.sectionNew{
+    background-color: #dddddd;
+    padding: 0 15%;
+}

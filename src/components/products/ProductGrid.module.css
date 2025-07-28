@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  
+  .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .itemTitle {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .itemAction {
+    margin: 0;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .itemsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+  
+  .item {
+    flex: 0 0 calc(100% / 6); 
+    box-sizing: border-box;
+    /* Optional fixed height for uniformity */
+    height: 180px; /* or whatever your item height is */
+  }
+  

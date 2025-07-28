@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.option {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  user-select: none;
+  border: 1px solid transparent;
+}
+
+.option:hover {
+  background-color: #e0e0e0;
+}
+
+.selected {
+  /* background-color: #4a90e2; */
+  background-color: #333;
+  color: #fff;
+  /* border-color: #4a90e2; */
+  border-color: #333;
+}
+
+.radio {
+  display: none;
+}
+
+.labelText {
+  pointer-events: none;
+}

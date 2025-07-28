@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+
+.map{
+    width: inherit;
+    height: 400px;
+    align-items: flex-end;
+}
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 10rem;
+}
